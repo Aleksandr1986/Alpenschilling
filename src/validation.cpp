@@ -1234,6 +1234,18 @@ CAmount GetBlockSubsidy(int nPrevBits, int nHeight, const Consensus::Params& con
     if (halvings >= 35)
         return 0;
 
+          if (nHeight == 1)
+              return 1 * COIN;			// One of One 
+          else if (nHeight == 2)
+              return 12800000 * COIN;	// Sale Fund (Website/Local Stores/Printed Gift Cards for shops)
+          else if (nHeight == 3)
+              return 100000 * COIN;		// Marketing & Design Fund payed instantly to Marketing company 
+          else if (nHeight == 4)
+              return 300000 * COIN;		// DEV Fund split into three wallets after locked for two years (one each dev)
+          if (nHeight >= 5 && nHeight <= 2000)
+                  return 10 * COIN;  	// instamine protection
+
+
     // LogPrintf("height %u diff %4.2f reward %d\n", nPrevHeight, dDiff, nSubsidyBase);
       CAmount nSubsidy = 130 * COIN;
 
