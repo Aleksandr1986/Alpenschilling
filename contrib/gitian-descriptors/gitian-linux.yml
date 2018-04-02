@@ -2,7 +2,7 @@
 name: "alps-linux-0.12"
 enable_cache: true
 suites:
-- "trusty"
+- "xenial"
 architectures:
 - "amd64"
 packages:
@@ -20,8 +20,8 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/alpspay/alps.git"
-  "dir": "alps"
+- "url": "https://github.com/Alpenschilling/Alpenschilling.git"
+  "dir": "Alpenschilling"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
