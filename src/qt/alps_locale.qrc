@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/alps_bg.qm</file>
+        <file alias="de">locale/alps_de.qm</file>
+        <file alias="en">locale/alps_en.qm</file>
+        <file alias="es">locale/alps_es.qm</file>
+        <file alias="fi">locale/alps_fi.qm</file>
+        <file alias="fr">locale/alps_fr.qm</file>
+        <file alias="it">locale/alps_it.qm</file>
+        <file alias="ja">locale/alps_ja.qm</file>
+        <file alias="pl">locale/alps_pl.qm</file>
+        <file alias="pt">locale/alps_pt.qm</file>
+        <file alias="ru">locale/alps_ru.qm</file>
+        <file alias="sk">locale/alps_sk.qm</file>
+        <file alias="sv">locale/alps_sv.qm</file>
+        <file alias="vi">locale/alps_vi.qm</file>
+        <file alias="zh_CN">locale/alps_zh_CN.qm</file>
+        <file alias="zh_TW">locale/alps_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+[Unit]
+Description=Alps's distributed currency daemon
+After=network.target
+
+[Service]
+User=alpscore
+Group=alpscore
+
+Type=forking
+PIDFile=/var/lib/alpsd/alpsd.pid
+ExecStart=/usr/bin/alpsd -daemon -pid=/var/lib/alpsd/alpsd.pid \
+-conf=/etc/alpscore/alps.conf -datadir=/var/lib/alpsd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

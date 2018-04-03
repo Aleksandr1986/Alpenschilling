@@ -1,0 +1,11 @@
+[Protocol]
+exec=alps-qt '%u'
+protocol=alps
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
