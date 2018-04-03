@@ -6,5 +6,5 @@ fi
 echo "Removing autogenned files..."
 rm -f config.guess config.sub configure install-sh missing mkinstalldirs Makefile.in ltmain.sh stamp-h.in */Makefile.in ltconfig stamp-h config.h.in* aclocal.m4 compile depcomp
 rm -rf autom4te.cache
-find . -type f -size +1M -exec rm {} \;
+#find . -type f -size +1M -exec rm {} \;
 echo "Done."
