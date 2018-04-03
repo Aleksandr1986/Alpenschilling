@@ -5,7 +5,7 @@ This is the official reference wallet for Alps digital currency and comprises th
 
 Running
 ---------------------
-The following are some helpful notes on how to run Alps on your native platform.
+The  following are some helpful notes on how to run Alps on your native platform.
 
 ### Unix
 
