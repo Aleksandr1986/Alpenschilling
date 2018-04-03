@@ -1,6 +1,0 @@
-usr/local/bin/alps-qt usr/bin
-share/pixmaps/alps32.xpm usr/share/pixmaps
-share/pixmaps/alps16.xpm usr/share/pixmaps
-share/pixmaps/alps128.png usr/share/pixmaps
-debian/alps-qt.desktop usr/share/applications
-debian/alps-qt.protocol usr/share/kde4/services/
