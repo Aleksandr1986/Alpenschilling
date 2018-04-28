@@ -1260,13 +1260,7 @@ CAmount GetBlockSubsidy(int nPrevBits, int nHeight, const Consensus::Params& con
 
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
-    CAmount ret = blockValue/5; // start at 20% (Miner: 104 -- MN: 26)
-
-    int nMNPIBlock = Params().GetConsensus().nMasternodePaymentsIncreaseBlock;
-    int nMNPIPeriod = Params().GetConsensus().nMasternodePaymentsIncreasePeriod;
-                                                                      
-    if(nHeight > nMNPIBlock) ret += blockValue / 10; // 30%(ALPS 39)
-
+    CAmount ret = blockValue/2; // 50% (Miner: ALPS 65 -- Masternodes: ALPS 65)
     return ret;
 }
 
